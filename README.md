@@ -27,7 +27,7 @@ The implementation was built from scratch using semantic HTML and a CUBE CSS-ins
 ### Links
 
 * **Solution URL**: [GitHub repository](https://github.com/Icequebe/fem-recipe-page)
-* **Live Site URL**: [Live demo]()
+* **Live Site URL**: [Live demo](https://icequebe.github.io/fem-recipe-page/)
 
 ## My process
 
