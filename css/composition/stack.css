@@ -1,0 +1,9 @@
+/* ===================================================== */
+/* COMPOSITION - STACK                                   */
+/* ===================================================== */
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--stack-space, 2em);
+}

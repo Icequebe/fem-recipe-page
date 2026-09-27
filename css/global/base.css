@@ -1,0 +1,87 @@
+/* ============================================== */
+/* GLOBAL - BASE STYLES (CUBE CSS APPROACH)       */
+/* ============================================== */
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-4);
+  line-height: 1.6;
+  font-weight: var(--fw-400);
+  background-color: var(--page-bg);
+  color: var(--text-bg);
+}
+
+h1,
+h2 {
+  font-family: var(--ff-head);
+  font-weight: var(--fw-400);
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--meta-bg);
+}
+
+p {
+  @media(width >= 48em) {
+    max-width: 65ch;
+  }
+}
+
+ul,
+ol {
+  margin-block-end: 0;
+  padding-left: 1.25rem;
+}
+
+ul > li,
+ol > li  {
+  font-family: var(--ff-body);
+  padding-left: 1rem;
+  margin-top: 0;
+}
+
+ul > li::marker,
+ol > li::marker {
+  font-weight: var(--fw-700);
+  color: var(--prep-tx);
+}
+
+hr {
+  border: 0;
+  border-block-start: 2px solid var(--line-bg);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+  & > tbody {
+    text-align: left;
+  }
+}
+
+tbody > tr {
+  border-block-end: 1px solid var(--line-bg);
+
+  &:last-child {
+    border-block-end: 0;
+  }
+}
+
+tbody > tr > th,
+tbody > tr > td {
+  padding-block: 0.9rem;
+}
+
+tbody > tr > th {
+  color: var(--text-bg);
+  font-weight: var(--fw-400);
+}
+
+tbody > tr > td {
+  font-weight: var(--fw-700);
+  color: var(--meta-bg);
+
+}

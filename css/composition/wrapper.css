@@ -1,0 +1,12 @@
+/* ===================================================== */
+/* COMPOSITION - WRAPPER                                 */
+/* ===================================================== */
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  
+  @media (width >= 48em) {
+    padding-block: 8rem;
+  }
+}

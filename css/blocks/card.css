@@ -1,0 +1,67 @@
+/* ===================================================== */
+/* BLOCK - CARD                                          */
+/* ===================================================== */
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: 0;
+
+
+  @media(width >=48em) {
+    max-width: 45rem;
+    padding: 2.25rem;
+    border-radius: var(--radius-1);
+  }
+}
+
+.card-image {
+  --stack-space: 0;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+
+  @media(width >=48em) {
+    border-radius: var(--radius-2);
+  }
+}
+
+.card-text {
+  padding-inline: 1.75rem;
+
+  @media(width >=48em) {
+    padding-inline: 0;
+  }
+}
+
+.card-desc {
+  --flow-space: 1em;
+
+  & > h1 {
+    font-family: var(--ff-head);
+    font-size: var(--fs-800);
+    color: var(--head-bg);
+
+    @media(width >=48em) {
+      font-size: var(--fs-900);
+    }
+  }
+
+  & > p {
+    color: var(--text-bg);
+  }
+}
+
+.card-prep {
+  background-color: var(--prep-bg);
+  border-radius: var(--radius-3);
+  padding: 1.5rem;
+  margin-block: 0;
+
+  & > h2 {
+    font-family: var(--ff-body);
+    font-size: 1.2rem;
+    font-weight: var(--fw-600);
+    color: var(--prep-tx);
+  }
+}

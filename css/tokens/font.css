@@ -1,0 +1,43 @@
+/* ===================================================== */
+/* TOKENS - FONT DECLARATIONS                            */
+/* ===================================================== */
+
+/* Young Serif - Regular */
+@font-face {
+  font-display: swap;
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/Young-Serif-Regular.woff2") 
+  format("woff2");
+}
+
+/* Outfit - Regular */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/Outfit-Regular.woff2") 
+  format("woff2");
+}
+
+/* Outfit - SemiBold */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../assets/fonts/Outfit-SemiBold.woff2") 
+  format("woff2");
+}
+
+/* Outfit - Bold */
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/fonts/Outfit-Bold.woff2") 
+  format("woff2");
+}
